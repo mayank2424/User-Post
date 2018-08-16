@@ -1,0 +1,26 @@
+.Footer{
+	background:#272727;
+	display: grid;
+	grid-template-columns: repeat(auto-fit,minmax(500px,1fr));
+	grid-gap:20px;
+	padding:15px;
+	justify-items:center;
+	align-items: center;
+	color:#E8E8E8;
+	margin:0;
+}
+.Footer p{
+	margin:0;
+}
+.Footer a:hover{
+	text-decoration: none;
+	color:#337ab7;
+}
+
+@media(max-width:550px){
+	.Footer{
+		margin-top:50px;
+		justify-items:start;
+     }
+
+}

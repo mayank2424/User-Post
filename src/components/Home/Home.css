@@ -1,0 +1,41 @@
+.home{
+	text-align: center;
+	margin-top:-70px;
+	/*background:url(http://www.latinsalsa.es/LSWP/wp-content/uploads/2016/01/fondoGenerico.jpg);*/
+	background:url(https://wallpapersite.com/images/wallpapers/polygons-5000x3000-pink-hd-4k-11804.jpg);
+	 background-size: 1600px, 400px;
+	 /*min-height: calc(100vh - 100px);*/
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	height:450px;
+	display: grid;
+	grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
+	justify-items:center;
+	align-items:center;
+}
+.home h1{
+	margin:0;
+}
+.home p{
+	font-size: 18px;
+	margin:10px;
+	color:#E7E7E7;
+	letter-spacing: 0.5px;
+}
+
+.content{
+
+	color:white;
+	text-align: center;
+}
+.content h1{
+	font-size:60px;
+}
+
+/*Mobile site Responsiveness*/
+
+@media(max-width:500px){
+	.home{
+		grid-template-columns: repeat(auto-fit,minmax(350px,1fr));
+	}
+}
